@@ -25,3 +25,8 @@ The development of an ALC reasoner using the tableaux method, enhanced with lazy
 4. **RDF Export and Visualization**: The ability to export tableaux results to RDF underscores the importance of integrating with the Semantic Web ecosystem. Choosing or developing an appropriate vocabulary for representing tableaux structures in RDF is crucial. Furthermore, leveraging tools like Graphviz for visualization can significantly aid in the interpretation and analysis of the reasoning process.
 
 5. **Performance Tracking**: Measuring and reporting the computation time for each query not only provides valuable feedback to users but also aids in the ongoing optimization of the reasoner's performance.
+
+### Authors
+[Giuseppina Russo](https://github.com/giusyrux)
+
+[cappadavide](https://github.com/cappadavide)
