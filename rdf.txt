@@ -1,0 +1,217 @@
+<?xml version='1.0'?>
+<rdf:RDF
+xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+xmlns:logop="https://www.w3schools.com/#logicaloperators"
+xmlns:node="https://www.w3schools.com/#node"
+>
+<rdf:Description rdf:about='node:0'>
+	<node:name>z0</node:name>
+	<node:LX>[ObjectIntersectionOf(<http://ontology#Auto> ObjectSomeValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+	<logop:or>
+		<rdf:Description rdf:about='node:1'>
+			<node:name>z0</node:name>
+			<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>), owl:Nothing, ObjectSomeValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>), <http://ontology#Auto>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(<http://ontology#Auto> ObjectSomeValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+			<node:clash> Clash 2</node:clash>
+		</rdf:Description>
+	</logop:or>
+	<logop:or>
+		<rdf:Description rdf:about='node:3'>
+			<node:name>z0</node:name>
+			<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>), ObjectSomeValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>), <http://ontology#Auto>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(<http://ontology#Auto> ObjectSomeValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+			<logop:or>
+				<rdf:Description rdf:about='node:4'>
+					<node:name>z0</node:name>
+					<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>), owl:Nothing, ObjectSomeValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>), <http://ontology#Auto>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(<http://ontology#Auto> ObjectSomeValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+					<node:clash> Clash 5</node:clash>
+				</rdf:Description>
+			</logop:or>
+			<logop:or>
+				<rdf:Description rdf:about='node:6'>
+					<node:name>z0</node:name>
+					<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>), ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>), ObjectSomeValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>), <http://ontology#Auto>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(<http://ontology#Auto> ObjectSomeValuesFrom(<http://ontology#haComponente> <http://ontology#Sterzo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+					<logop:exists>
+						<rdf:Description rdf:about='node:7'>
+							<node:name>z1</node:name>
+							<node:LX>[owl:Thing, <http://ontology#Componente>, <http://ontology#Sterzo>, ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+							<logop:or>
+								<rdf:Description rdf:about='node:8'>
+									<node:name>z1</node:name>
+									<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), ObjectSomeValuesFrom(<http://ontology#componenteDi> <http://ontology#Auto>), owl:Thing, <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), owl:Nothing, ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), <http://ontology#Sterzo>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+									<node:clash> Clash 9</node:clash>
+								</rdf:Description>
+							</logop:or>
+							<logop:or>
+								<rdf:Description rdf:about='node:10'>
+									<node:name>z1</node:name>
+									<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), ObjectSomeValuesFrom(<http://ontology#componenteDi> <http://ontology#Auto>), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), <http://ontology#Sterzo>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+									<logop:or>
+										<rdf:Description rdf:about='node:11'>
+											<node:name>z1</node:name>
+											<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), ObjectSomeValuesFrom(<http://ontology#componenteDi> <http://ontology#Auto>), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), owl:Nothing, ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), <http://ontology#Sterzo>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+											<node:clash> Clash 12</node:clash>
+										</rdf:Description>
+									</logop:or>
+									<logop:or>
+										<rdf:Description rdf:about='node:13'>
+											<node:name>z1</node:name>
+											<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), ObjectSomeValuesFrom(<http://ontology#componenteDi> <http://ontology#Auto>), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>), ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), <http://ontology#Sterzo>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+											<logop:exists>
+												<rdf:Description rdf:about='node:14'>
+													<node:name>z2</node:name>
+													<node:LX>[<http://ontology#Auto>, ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+											</logop:exists>
+											<logop:exists>
+												<rdf:Description rdf:about='node:16'>
+													<node:name>z3</node:name>
+													<node:LX>[owl:Thing, ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+													<logop:or>
+														<rdf:Description rdf:about='node:17'>
+															<node:name>z3</node:name>
+															<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), owl:Thing, ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), owl:Nothing, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+															<node:clash> Clash 18</node:clash>
+														</rdf:Description>
+													</logop:or>
+													<logop:or>
+														<rdf:Description rdf:about='node:19'>
+															<node:name>z3</node:name>
+															<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+															<logop:or>
+																<rdf:Description rdf:about='node:20'>
+																	<node:name>z3</node:name>
+																	<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), owl:Nothing, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+																	<node:clash> Clash 21</node:clash>
+																</rdf:Description>
+															</logop:or>
+															<logop:or>
+																<rdf:Description rdf:about='node:22'>
+																	<node:name>z3</node:name>
+																	<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>), ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+																	<logop:exists>
+																		<rdf:Description rdf:about='node:23'>
+																			<node:name>z4</node:name>
+																			<node:LX>[owl:Thing, <http://ontology#Componente>, ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+																	</logop:exists>
+																</rdf:Description>
+															</logop:or>
+														</rdf:Description>
+													</logop:or>
+												</rdf:Description>
+											</logop:exists>
+										</rdf:Description>
+									</logop:or>
+								</rdf:Description>
+							</logop:or>
+						</rdf:Description>
+					</logop:exists>
+					<logop:exists>
+						<rdf:Description rdf:about='node:25'>
+							<node:name>z5</node:name>
+							<node:LX>[<http://ontology#Componente>, <http://ontology#Sterzo>, ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+							<logop:or>
+								<rdf:Description rdf:about='node:26'>
+									<node:name>z5</node:name>
+									<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), ObjectSomeValuesFrom(<http://ontology#componenteDi> <http://ontology#Auto>), <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), owl:Nothing, ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), <http://ontology#Sterzo>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+									<node:clash> Clash 27</node:clash>
+								</rdf:Description>
+							</logop:or>
+							<logop:or>
+								<rdf:Description rdf:about='node:28'>
+									<node:name>z5</node:name>
+									<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), ObjectSomeValuesFrom(<http://ontology#componenteDi> <http://ontology#Auto>), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), <http://ontology#Sterzo>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+									<logop:or>
+										<rdf:Description rdf:about='node:29'>
+											<node:name>z5</node:name>
+											<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), ObjectSomeValuesFrom(<http://ontology#componenteDi> <http://ontology#Auto>), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), owl:Nothing, ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), <http://ontology#Sterzo>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+											<node:clash> Clash 30</node:clash>
+										</rdf:Description>
+									</logop:or>
+									<logop:or>
+										<rdf:Description rdf:about='node:31'>
+											<node:name>z5</node:name>
+											<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), ObjectSomeValuesFrom(<http://ontology#componenteDi> <http://ontology#Auto>), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>), ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), <http://ontology#Sterzo>, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+											<logop:exists>
+												<rdf:Description rdf:about='node:32'>
+													<node:name>z6</node:name>
+													<node:LX>[<http://ontology#Auto>, ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+											</logop:exists>
+											<logop:exists>
+												<rdf:Description rdf:about='node:34'>
+													<node:name>z7</node:name>
+													<node:LX>[owl:Thing, ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+													<logop:or>
+														<rdf:Description rdf:about='node:35'>
+															<node:name>z7</node:name>
+															<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), owl:Thing, ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), owl:Nothing, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+															<node:clash> Clash 36</node:clash>
+														</rdf:Description>
+													</logop:or>
+													<logop:or>
+														<rdf:Description rdf:about='node:37'>
+															<node:name>z7</node:name>
+															<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+															<logop:or>
+																<rdf:Description rdf:about='node:38'>
+																	<node:name>z7</node:name>
+																	<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), owl:Nothing, ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+																	<node:clash> Clash 39</node:clash>
+																</rdf:Description>
+															</logop:or>
+															<logop:or>
+																<rdf:Description rdf:about='node:40'>
+																	<node:name>z7</node:name>
+																	<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, ObjectSomeValuesFrom(<http://ontology#haComponente> owl:Thing), ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>), ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+																	<logop:exists>
+																		<rdf:Description rdf:about='node:41'>
+																			<node:name>z8</node:name>
+																			<node:LX>[owl:Thing, <http://ontology#Componente>, ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+																			<logop:or>
+																				<rdf:Description rdf:about='node:42'>
+																					<node:name>z8</node:name>
+																					<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), owl:Thing, <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), owl:Nothing, ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+																					<node:clash> Clash 43</node:clash>
+																				</rdf:Description>
+																			</logop:or>
+																			<logop:or>
+																				<rdf:Description rdf:about='node:44'>
+																					<node:name>z8</node:name>
+																					<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+																					<logop:or>
+																						<rdf:Description rdf:about='node:45'>
+																							<node:name>z8</node:name>
+																							<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), owl:Nothing, ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+																							<node:clash> Clash 46</node:clash>
+																						</rdf:Description>
+																					</logop:or>
+																					<logop:or>
+																						<rdf:Description rdf:about='node:47'>
+																							<node:name>z8</node:name>
+																							<node:LX>[ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)), ObjectAllValuesFrom(<http://ontology#haComponente> owl:Nothing), ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>), owl:Thing, <http://ontology#Componente>, ObjectComplementOf(<http://ontology#Veicolo>), ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>), ObjectSomeValuesFrom(<http://ontology#componenteDi> owl:Thing), ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)), ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>)))]</node:LX>
+																							<logop:exists>
+																								<rdf:Description rdf:about='node:48'>
+																									<node:name>z9</node:name>
+																									<node:LX>[owl:Thing, ObjectIntersectionOf(ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#componenteDi> <http://ontology#Veicolo>)) ObjectUnionOf(owl:Nothing ObjectAllValuesFrom(<http://ontology#haComponente> <http://ontology#Componente>))), <http://ontology#Veicolo>]</node:LX>
+																							</logop:exists>
+																						</rdf:Description>
+																					</logop:or>
+																				</rdf:Description>
+																			</logop:or>
+																		</rdf:Description>
+																	</logop:exists>
+																</rdf:Description>
+															</logop:or>
+														</rdf:Description>
+													</logop:or>
+												</rdf:Description>
+											</logop:exists>
+										</rdf:Description>
+									</logop:or>
+								</rdf:Description>
+							</logop:or>
+						</rdf:Description>
+					</logop:exists>
+				</rdf:Description>
+			</logop:or>
+		</rdf:Description>
+	</logop:or>
+</rdf:Description>
+</rdf:RDF>
